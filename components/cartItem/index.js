@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, Text, View, ImageBackground } from "react-native";
+import { StyleSheet, Text, View, ImageBackground, LogBox } from "react-native";
 import Btn from "../button";
 import styles from "./styles";
 
@@ -14,7 +14,22 @@ const CartItem = () => {
         <Text style={styles.title}>Model S</Text>
         <Text style={styles.subTitle}>Staring at €69,000</Text>
       </View>
-      <Btn btnType="second" />
+      <View style={styles.btnContainer}>
+        <Btn
+          btnType="initial"
+          content={"Custom Order"}
+          onPress={() => {
+            console.warn("Custom");
+          }}
+        />
+        <Btn
+          btnType="second"
+          content={"Pre-Order"}
+          onPress={() => {
+            console.warn("Pre-Order");
+          }}
+        />
+      </View>
     </View>
   );
 };
