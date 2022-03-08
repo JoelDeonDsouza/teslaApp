@@ -1,9 +1,9 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet, Dimensions } from "react-native";
 
 const styles = StyleSheet.create({
   contain: {
     width: "100%",
-    height: "100%",
+    height: Dimensions.get("window").height,
   },
   img: {
     width: "100%",
@@ -23,6 +23,9 @@ const styles = StyleSheet.create({
   subTitle: {
     fontSize: 16,
     color: "#5c5e62",
+  },
+  subTitle2: {
+    textDecorationLine: "underline",
   },
   btnContainer: {
     position: "absolute",
