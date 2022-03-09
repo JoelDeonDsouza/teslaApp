@@ -7,7 +7,6 @@ Getting Started with the app.
 In the project directory, you can run:
 ### `npm start`
 ### `yarn start`
-Runs the app in the development mode.\
 App runs with the help of expo.
 ## About the app
 This projectis the clone of tesla app UI which is rendered with react native(a cross platform development).
