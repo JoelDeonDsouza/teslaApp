@@ -8,7 +8,6 @@ In the project directory, you can run:
 ### `npm start`
 ### `yarn start`
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-HomePage with Search-bar will be renders.
+App runs with the help of expo.
 ## About the app
 This projectis the clone of tesla app UI which is rendered with react native(a cross platform development).
