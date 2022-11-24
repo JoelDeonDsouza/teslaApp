@@ -1,6 +1,6 @@
 ## 🚀 Tesla App
 TeslaApp is the clone UI of Tesla current app, Built with react native a hybrid application....
-![alt text](https://dsouzafamily2022.w3spaces.com/tesla.png?bypass-cache=18771164)
+(https://dsouzafamily2022.w3spaces.com/tesla.png?bypass-cache=18771164)
 
 Getting Started with the app.
 ## Tech Stack
